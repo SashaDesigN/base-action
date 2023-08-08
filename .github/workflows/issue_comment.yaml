@@ -1,7 +1,8 @@
 name: Add comment to new issue
 
-on: issues
-  types: [opened]
+on:
+  issues:
+    types: [opened]
 
 jobs:
   comment-with-action:
