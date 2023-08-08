@@ -1,6 +1,6 @@
 name: Add comment to new issue
 
-on: issue
+on: issues
   types: [opened]
 
 jobs:
